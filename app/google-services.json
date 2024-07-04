@@ -1,0 +1,48 @@
+
+{
+  "project_info": {
+    "project_number": "668514986939",
+    "project_id": "pushkar-s-chat-app",
+    "storage_bucket": "pushkar-s-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668514986939:android:c212bc23e5d071cf05f29e",
+        "android_client_info": {
+          "package_name": "com.example.pushkarschatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668514986939-sbf9q4fs7615l9pen3s9v9d5nkqusc7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pushkarschatapp",
+            "certificate_hash": "b8cdfbcc08a346d26ef80b7ca52a70d4faf51ca1"
+          }
+        },
+        {
+          "client_id": "668514986939-q22athb65emp5urhegle5fphj69kd9nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCPgXHh-7ma47lTgRzQokVrNP9q4CwUsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668514986939-q22athb65emp5urhegle5fphj69kd9nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -59,6 +60,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.generativeai)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -66,4 +68,49 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.accompanist.navigation.animation)
+
+    //material3
+    implementation(libs.androidx.material)
+
+
+
+
+// Material for icons
+    implementation(libs.androidx.material.icons.core)
+    implementation(libs.androidx.material.icons.extended)
+
+
+// Lottie
+    implementation(libs.lottie.compose)
+
+
+    //firebase
+    implementation(libs.firebase.auth.ktx)
+    implementation(libs.play.services.auth)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore.ktx)
+
+    // For runtime
+    implementation(libs.androidx.runtime.livedata)
+
+    // Lifecycle dependencies
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    // Coil to load images remotely (profile img)
+    implementation(libs.coil.compose)
+
+    // JetFireStore
+    implementation(libs.jetfirestore)
+
+    // Lifecycle-aware Compose state
+    implementation(libs.androidx.lifecycle.runtime.compose)
+
+    // DataStore
+    implementation(libs.androidx.datastore.core)
+    implementation(libs.androidx.datastore.preferences)
 }
